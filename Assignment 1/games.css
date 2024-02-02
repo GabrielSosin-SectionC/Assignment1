@@ -1,0 +1,145 @@
+body{
+    background: hsla(0, 0%, 0%, 1);
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 1) 67%, hsla(266, 75%, 55%, 1) 100%);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+h2, p, table{
+    cursor: default;
+}
+
+.header-container{
+    margin-left: 4%;
+    font-size: 25px;
+    cursor: default;
+}
+
+.nav-container{
+    word-spacing: 100px;
+    margin-left: 20%;
+    margin-right: 7%;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #66347F;
+    transition-duration: 0.5s;
+    text-shadow: 0 0 25px white; 
+}
+
+hr{
+    border-color: #917FB3;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.title-container{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+}
+
+.main-item{
+    flex-grow: 7;
+    margin-left: 5%;
+    margin-right: 1%;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #E5BEEC;
+}
+
+.game-info{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+}
+
+.about-game{
+    flex-grow: 7;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 19px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.game-img{
+    margin-right: 20%;
+    margin-bottom: 4%;
+}
+
+.game-clip{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+caption{
+    margin-top: 2%;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+tr{
+    border: none;
+}
+
+td{
+    text-align: center;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    padding: 10px;
+}
+
+th{
+    background-color: black;
+    border: none;
+    color:white;
+}
+td:hover{
+    color: black;
+    transition-duration: 0.5s;
+    text-shadow: 0 0 25px white; 
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.footer-item{
+    font-size: 15px;
+    font-style: italic;
+}

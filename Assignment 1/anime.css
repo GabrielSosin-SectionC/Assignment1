@@ -1,0 +1,108 @@
+body{
+    background: hsla(0, 0%, 0%, 1);
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 1) 67%, hsla(266, 75%, 55%, 1) 100%);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main, .other-container{
+    cursor: default;
+}
+
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.header-container{
+    margin-left: 4%;
+    font-size: 25px;
+    cursor: default;
+}
+
+.nav-container{
+    word-spacing: 100px;
+    margin-left: 20%;
+    margin-right: 7%;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #66347F;
+    transition-duration: 0.5s;
+    text-shadow: 0 0 25px white; 
+}
+
+h2{
+    color: #E5BEEC;
+}
+
+hr{
+    border-color: #917FB3;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.anime-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.anime-iframe{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.anime1{
+    margin-right: 5%;
+}
+
+.anime2-iframe{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.anime2{
+    margin-left: 5%;
+}
+
+.other-container{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+li::marker{
+    color: #917FB3;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.footer-item{
+    font-size: 15px;
+    font-style: italic;
+}
